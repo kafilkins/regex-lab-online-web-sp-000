@@ -1,5 +1,5 @@
 def starts_with_a_vowel?(word)
-    /^\w+[a][e][i][o][u]/
+    /^[a][e][i][o][u]/
 
 
 end
