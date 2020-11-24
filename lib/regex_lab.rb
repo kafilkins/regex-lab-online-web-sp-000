@@ -4,7 +4,7 @@ def starts_with_a_vowel?(word)
 else
   false
 end
-if word.scan(/[bcdfghjklmnpqrstvwxyz]/)
+if word.scan(/^[bcdfghjklmnpqrstvwxyz]/)
   true
 else
   false
