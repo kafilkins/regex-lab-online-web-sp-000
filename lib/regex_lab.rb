@@ -5,9 +5,9 @@ else
   false
 end
 if word.scan(/[bcdfghjklmnpqrstvwxyz]/)
-  false
-else
   true
+else
+  false
 end
 end
 
